@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head >
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ca1</title>
+  </head>
+<body class="bg-black">
+<div id="wrapper" class="mx-auto max-w-5xl bg-orange-400 rounded-md mt-10">
+
+  <nav class="relative">
+
+    <div class="w-full py-6 px-5 bg-black flex justify-between items-center">
+      <img src="codeclub Resources/codeclub/code_club_logo.jpg" class="w-10" alt="Code Club Logo">
+
+     
+      <button id="menu-btn" class="md:hidden flex flex-col space-y-1"
+              aria-label="Toggle navigation"
+              aria-expanded="false">
+
+        <div class="w-6 h-1 bg-white"></div>
+        <div class="w-6 h-1 bg-white"></div>
+        <div class="w-6 h-1 bg-white"></div>
+
+      </button>
+
+      <ul class="hidden lg:flex left-1 md:flex items-center space-x-5">
+
+        <li><a class="bg-white hover:bg-red-500 rounded-md " href="index.html">Home</a></li>
+        <li><a class="bg-white hover:bg-red-500 rounded-md " href="Scratch.html">Scratch</a></li>
+        <li><a class="bg-white hover:bg-red-500 rounded-md " href="Python.html">Python</a></li>
+        <li><a class="bg-white hover:bg-red-500 rounded-md " href="Web Page.html">Web</a></li>
+
+      </ul>
+      
+    </div>
+
+      <ul id="mobile-menu" class="hidden md:hidden absolute top-full right-0 w-full bg-amber-100 flex-col space-y-3 p-5 z-50">
+
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Scratch.html">Scratch</a></li>
+        <li><a href="Python.html">Python</a></li>
+        <li><a href="Web Page.html">Web</a></li>
+
+      </ul>
+
+  </nav>
+
+</div>
+
+
+  </div>
+
+  <header>
+    <div class=" flex-1 bg-amber-700 rounded-md my-0.5 mx-14 outline-2 outline-offset-0"> <h2 class="font-bold">Learn to code with Code club</H2>
+      <article>
+        Our projects have step-by-step instructions to teach you how to create games, animations, and much more.
+        Choose from hundreds of options, in up to 30 languages.
+      </article>
+      <p class="my-5"></p>
+    </div>
+  </header>
+   
+  <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ">
+    <div class="flex-1 bg-blue-400 rounded-md ">
+      <img src="codeclub Resources/codeclub/scratch.png " class="w-64 rounded-md ltr mx-10 my-3">
+      <h1 class="font-bold mx-10">Scratch</h1>
+      <article class="mx-16">
+      Create animations, apps, 
+      and interactive stories by adding code,
+       costumes, and sounds.
+      </article>
+      <p class="my-48"></p>
+      <div>
+        <button class="bg-white hover:bg-yellow-300 rounded-md mx-20 outline-2 outline-offset-0">Explore Scratch Projects</button>
+      </div>
+      
+  </div >
+
+  <div class="flex-1 bg-yellow-200 rounded-md"> 
+    <img src="codeclub Resources/codeclub/python.png " class="w-64 rounded-md mx-10 my-3">
+    <h1 class="font-bold mx-10">Phyton</h1>
+    <article class="mx-16">
+      Make digital art, games,
+      and more while exploring one of the world's most popular programming languages.
+    </article > 
+    <p class="my-40"></p>
+    <div>
+    <button class="bg-white hover:bg-yellow-300 rounded-md mx-20 outline-2 outline-offset-0">Explore Phyton Projects</button>
+    </div>
+
+  </div>
+
+  <div class="flex-1 bg-green-300 rounded-md "> 
+    
+    <img src="codeclub Resources/codeclub/web.png" class="w-64 rounded-md mx-10 my-3"> 
+    <h1 class="font-bold mx-10">Web dev </h1>
+    <article class="mx-16">
+      Discover the foundational concepts of machine learning through
+      creative projects using AI applications and technologies.
+    </article>
+    <p class="my-40"></p>
+    <div>
+    <button class="bg-white hover:bg-orange-300 rounded-md mx-20 outline-2 outline-offset-0">Explore Web dev Projects</button>
+    </div>
+  </div>
+
+  </div>
+    
+  </div end of wrapper>
+
+  <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
